@@ -1,0 +1,21 @@
+fun main(args: Array<String>) {
+ var cars=arrayOf("volvo","bmw","ford","swift")
+ //index 0 which value in array
+ println(cars[0])
+
+ //check volvo is exists in array or not
+ if("Volvo" in cars)
+ println("It exists!")
+ else
+ println("Not exist!")
+
+ //size of array
+ println(cars.size)
+}
+
+
+Output:
+
+volvo
+Not exist!
+4
